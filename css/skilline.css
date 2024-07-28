@@ -39,3 +39,40 @@ body {
 .text-darken {
     color: #2F327D;
 }
+
+.font-large{
+    font-size: 2.5rem;
+}
+.partner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 12%; */
+    /* height: 10%; */
+
+}
+.partner-content .partnersImage{
+        width: 15%;
+    }
+.partner-content .partnersImage img{
+
+
+}
+.card-list ul{
+    list-style: circle;
+}
+.card-list ul li{
+    list-style: disc;
+    width: 100%;
+    text-align: left;
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+}
+.card-content{
+    margin-bottom: 30px;
+}
+.card-content img{
+    max-width: 67%;
+}
