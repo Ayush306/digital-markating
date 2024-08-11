@@ -80,3 +80,10 @@ body {
     width: 13%;
     height: auto;
 }
+#home-image img{
+    /* height: 80%; */
+}
+#girl>img{
+    /* height: 150%; */
+    margin: 64px 20px;
+}
