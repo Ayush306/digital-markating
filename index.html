@@ -37,7 +37,7 @@
 					<!-- new Logo -->
 					<a href="/" class="logo-link">
 						<img src="./img/new-images/logo/logo-rm-bg.png" alt="">
-						<span class="logo-text">mob redical</span>
+						<span class="logo-text mt-5" style="font-weight: bold;">mob redical</span>
 					</a>
 				</div>
 				<button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
@@ -56,11 +56,11 @@
 				<a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
 					href="#">Home</a>
 				<a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-					href="#">Careers</a>
+					href="https://www.linkedin.com/company/mobredical-media?trk=blended-typeahead">Careers</a>
 				<a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
 					href="https://www.linkedin.com/company/mobredical-media?trk=blended-typeahead">Contact Us</a>
 				<a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-					href="#">About Us</a>
+					href="#footer-about-us">About Us</a>
 				<!-- <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4"
 					href="#">Login</a>
 				<a class="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4"
@@ -420,7 +420,7 @@
 					<li>Sports & Casino</li>
 					<li>E-commerce</li>
 					<li>Entertainment</li>
-				</ul>							  
+				</ul>
 			</div>
 		</div>
 
@@ -568,17 +568,14 @@
 				</div>
 			</div>
 		</div> -->
-
 	</div>
 	<!-- .container -->
-
 	<footer class="mt-32" style="background-color: rgba(37, 38, 65, 1);">
 		<div class="max-w-lg mx-auto">
 			<div class="flex py-12 justify-center text-white items-center px-20 sm:px-36">
 				<div class="relative" style="display: flex;">
-
 					<a href="/">
-						<img src="./img/new-images/logo/logo-rm-bg.png" alt="">
+						<img src="./img/new-images/logo/logo-rm-bg.png" alt="Logo">
 					</a>
 					<span class="border-l border-gray-500 text-sm pl-5 py-2 font-semibold">Brand Promotion With
 						Precision</span>
@@ -588,20 +585,19 @@
 				<label class="text-gray-300 font-semibold">Contact Us</label>
 				<div class="px-5 sm:px-0 flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0 justify-center mt-3"
 					style="color: white;">
-					Office Address : Uttam Nagar,New Delhi,India,110059
-					<!-- <input type="email" placeholder="Your Email"
-						class="rounded-full py-2 pl-5 bg-transparent border border-gray-400">
-					<button type="submit"
-						class="text-white w-40 sm:w-auto mx-auto sm:mx-0 font-semibold px-5 py-2 rounded-full"
-						style="background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);">Subscribe</button> -->
+					Office Address: Uttam Nagar, New Delhi, India, 110059
+					<!-- <input type="email" placeholder="Your Email" class="rounded-full py-2 pl-5 bg-transparent border border-gray-400">
+					<button type="submit" class="text-white w-40 sm:w-auto mx-auto sm:mx-0 font-semibold px-5 py-2 rounded-full" style="background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);">Subscribe</button> -->
 				</div>
 			</div>
 			<div class="flex items-center text-gray-400 text-sm justify-center">
-				<a href="" class="pr-3">Careers</a>
-				<a href="" class="border-l border-gray-400 px-3">Privacy</a>
-				<a href="" class="border-l border-gray-400 pl-3">Terms & Conditions</a>
+				<a href="#" class="pr-3">Careers</a>
+				<a href="#" class="border-l border-gray-400 px-3">Privacy</a>
+				<a href="#" class="border-l border-gray-400 pl-3">Terms & Conditions</a>
+				&nbsp;<a href="#footer-about-us" class="border-l border-gray-400 pl-3">About Us</a>
+				<!-- Added About Us link -->
 			</div>
-			<div class="text-center text-white">
+			<div id="footer-about-us" class="text-center text-white"> <!-- Added id to target -->
 				<p class="my-3 text-gray-400 text-sm">&copy; 2024 Mobredical Media</p>
 				<!-- <div class="py-3 tracking-wide">
 					<p>Code By <span class="font-semibold">mhaecal</span></p>
@@ -610,7 +606,6 @@
 			</div>
 		</div>
 	</footer>
-
 	<!-- AOS init -->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
